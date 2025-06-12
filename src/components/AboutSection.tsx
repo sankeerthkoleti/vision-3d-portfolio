@@ -16,7 +16,7 @@ const AboutSection = () => {
           <div className="text-center lg:text-left">
             <div className="inline-block relative">
               <img
-                src="https://drive.google.com/uc?export=view&id=18xHT-IxsrpBRovO_BBD6N4f-YvRLe_28"
+                src="/WhatsApp Image 2025-06-13 at 04.02.25_e107ad0a.jpg"
                 alt="Sankeerth Koleti - Frontend Developer"
                 className="w-80 h-80 object-cover rounded-full shadow-2xl hover-scale"
               />
