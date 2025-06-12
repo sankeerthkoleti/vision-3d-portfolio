@@ -16,8 +16,8 @@ const AboutSection = () => {
           <div className="text-center lg:text-left">
             <div className="inline-block relative">
               <img
-                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
-                alt="John Doe - Frontend Developer"
+                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                alt="Sankeerth Koleti - Frontend Developer"
                 className="w-80 h-80 object-cover rounded-full shadow-2xl hover-scale"
               />
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 opacity-20"></div>

@@ -8,30 +8,27 @@ const ProjectsSection = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce React App",
-      description: "A fully responsive e-commerce platform built with React.js, featuring product catalog, shopping cart, and checkout functionality with modern UI/UX design.",
+      title: "Infinity Connect",
+      description: "An image recognition–powered feature enabling profile photo–based user search, significantly enhancing user discovery and engagement beyond traditional ID-based search methods.",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-      technologies: ["React.js", "Tailwind CSS", "Node.js", "MongoDB"],
-      link: "https://github.com/johndoe/ecommerce-app",
-      demo: "#"
+      technologies: ["React.js", "SpringBoot", "MySQL", "Machine Learning"],
+      link: "https://github.com/sankeerthkoleti/infinityconnectfrontened.git"
     },
     {
       id: 2,
-      title: "3D Portfolio Website",
-      description: "An interactive portfolio website featuring Three.js 3D animations, smooth scrolling, and responsive design. Showcases modern web development techniques.",
+      title: "AgroFix",
+      description: "A full-stack online vegetable marketplace with guest checkout, order tracking, and product management features. Enabled seamless purchasing without account creation, combining convenience with efficient admin-side control and real-time order handling.",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-      technologies: ["Three.js", "React", "GSAP", "WebGL"],
-      link: "https://github.com/johndoe/3d-portfolio",
-      demo: "#"
+      technologies: ["React.js", "Node.js", "SQLite"],
+      link: "https://github.com/sankeerthkoleti/AgroFix.git"
     },
     {
       id: 3,
-      title: "WordPress Business Theme",
-      description: "Custom WordPress theme for business websites with advanced customization options, SEO optimization, and mobile-first responsive design.",
+      title: "Money Manager",
+      description: "A simple budget management website to track money lent to customers. Features intuitive interface for managing finances and tracking lending activities with comprehensive reporting.",
       image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-      technologies: ["WordPress", "PHP", "JavaScript", "SCSS"],
-      link: "https://github.com/johndoe/business-theme",
-      demo: "#"
+      technologies: ["HTML", "CSS", "JavaScript", "Node.js"],
+      link: "https://github.com/sankeerthkoleti/financemanager.git"
     }
   ];
 
@@ -43,7 +40,7 @@ const ProjectsSection = () => {
           <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Here are some of my recent projects showcasing my skills in frontend development, 
-            3D integration, and modern web technologies.
+            full-stack development, and modern web technologies.
           </p>
         </div>
 
@@ -84,18 +81,10 @@ const ProjectsSection = () => {
                   <Button 
                     variant="outline" 
                     size="sm" 
-                    className="flex-1 group"
+                    className="w-full group"
                     onClick={() => window.open(project.link, '_blank')}
                   >
                     View Code
-                    <ArrowRight className="ml-2 h-3 w-3 group-hover:translate-x-1 transition-transform" />
-                  </Button>
-                  <Button 
-                    size="sm" 
-                    className="flex-1 group"
-                    onClick={() => window.open(project.demo, '_blank')}
-                  >
-                    Live Demo
                     <ArrowRight className="ml-2 h-3 w-3 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </div>
