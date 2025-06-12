@@ -17,7 +17,7 @@ const ProjectsSection = () => {
       id: 2,
       title: "AgroFix",
       description: "A full-stack online vegetable marketplace with guest checkout, order tracking, and product management features. Enabled seamless purchasing without account creation, combining convenience with efficient admin-side control and real-time order handling.",
-      image: "https://drive.google.com/uc?export=view&id=1D9LUeAS0xwrK8dDw2Eig67AA39Jh5OFd",
+      image: "/Screenshot 2025-06-13 042040.png",
       technologies: ["React.js", "Node.js", "SQLite"],
       link: "https://github.com/sankeerthkoleti/AgroFix.git"
     },
