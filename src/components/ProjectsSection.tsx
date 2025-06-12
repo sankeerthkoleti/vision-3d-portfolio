@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -10,7 +9,7 @@ const ProjectsSection = () => {
       id: 1,
       title: "Infinity Connect",
       description: "An image recognition–powered feature enabling profile photo–based user search, significantly enhancing user discovery and engagement beyond traditional ID-based search methods.",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      image: "https://images.unsplash.com/photo-1611262588024-d12430b98920?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
       technologies: ["React.js", "SpringBoot", "MySQL", "Machine Learning"],
       link: "https://github.com/sankeerthkoleti/infinityconnectfrontened.git"
     },
@@ -18,7 +17,7 @@ const ProjectsSection = () => {
       id: 2,
       title: "AgroFix",
       description: "A full-stack online vegetable marketplace with guest checkout, order tracking, and product management features. Enabled seamless purchasing without account creation, combining convenience with efficient admin-side control and real-time order handling.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      image: "https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
       technologies: ["React.js", "Node.js", "SQLite"],
       link: "https://github.com/sankeerthkoleti/AgroFix.git"
     },
@@ -26,7 +25,7 @@ const ProjectsSection = () => {
       id: 3,
       title: "Money Manager",
       description: "A simple budget management website to track money lent to customers. Features intuitive interface for managing finances and tracking lending activities with comprehensive reporting.",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
       technologies: ["HTML", "CSS", "JavaScript", "Node.js"],
       link: "https://github.com/sankeerthkoleti/financemanager.git"
     }
