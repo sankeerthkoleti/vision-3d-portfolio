@@ -25,7 +25,7 @@ const ProjectsSection = () => {
       id: 3,
       title: "Money Manager",
       description: "A simple budget management website to track money lent to customers. Features intuitive interface for managing finances and tracking lending activities with comprehensive reporting.",
-      image: "https://drive.google.com/uc?export=view&id=1E9Su_-smPVQHuiL45MQS4wQ9s9-qdqrM",
+      image: "/Screenshot 2025-06-13 042832.png",
       technologies: ["HTML", "CSS", "JavaScript", "Node.js"],
       link: "https://github.com/sankeerthkoleti/financemanager.git"
     }
