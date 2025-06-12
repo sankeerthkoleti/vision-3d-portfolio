@@ -1,7 +1,7 @@
 
 import React, { useRef } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { OrbitControls, Sphere, Box, Torus } from '@react-three/drei';
+import { OrbitControls } from '@react-three/drei';
 import * as THREE from 'three';
 
 // Animated 3D Objects Component
@@ -39,17 +39,20 @@ const AnimatedObjects = () => {
       <pointLight position={[-10, -10, -5]} intensity={0.5} color="#4338ca" />
 
       {/* Animated 3D Objects */}
-      <Sphere ref={sphereRef} args={[0.8, 32, 32]} position={[-3, 0, 0]}>
+      <mesh ref={sphereRef} position={[-3, 0, 0]}>
+        <sphereGeometry args={[0.8, 32, 32]} />
         <meshStandardMaterial color="#3b82f6" wireframe />
-      </Sphere>
+      </mesh>
 
-      <Box ref={boxRef} args={[1, 1, 1]} position={[0, 0, 0]}>
+      <mesh ref={boxRef} position={[0, 0, 0]}>
+        <boxGeometry args={[1, 1, 1]} />
         <meshStandardMaterial color="#8b5cf6" transparent opacity={0.8} />
-      </Box>
+      </mesh>
 
-      <Torus ref={torusRef} args={[1.2, 0.4, 16, 100]} position={[3, 0, 0]}>
+      <mesh ref={torusRef} position={[3, 0, 0]}>
+        <torusGeometry args={[1.2, 0.4, 16, 100]} />
         <meshStandardMaterial color="#06b6d4" wireframe />
-      </Torus>
+      </mesh>
 
       {/* Orbit Controls for interaction */}
       <OrbitControls 
