@@ -9,7 +9,7 @@ const ProjectsSection = () => {
       id: 1,
       title: "Infinity Connect",
       description: "An image recognition–powered feature enabling profile photo–based user search, significantly enhancing user discovery and engagement beyond traditional ID-based search methods.",
-      image: "https://drive.google.com/uc?export=view&id=1I2K8-jEkjSgNG6Smw9bLgYiN0S9VSsKN",
+      image: "/Screenshot 2025-06-13 042448.png",
       technologies: ["React.js", "SpringBoot", "MySQL", "Machine Learning"],
       link: "https://github.com/sankeerthkoleti/infinityconnectfrontened.git"
     },
